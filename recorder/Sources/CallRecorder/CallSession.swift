@@ -7,7 +7,7 @@ final class CallSession {
             return URL(fileURLWithPath: (custom as NSString).expandingTildeInPath, isDirectory: true)
         }
         return FileManager.default.homeDirectoryForCurrentUser
-            .appendingPathComponent("Documents/ugur-ai/ugur-studio/4-personal/calls", isDirectory: true)
+            .appendingPathComponent("Documents/ugur-ai/ugur-studio/3-personal/calls", isDirectory: true)
     }
 
     let folder: URL
